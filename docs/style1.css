@@ -1,0 +1,34 @@
+h1{color: red;
+    font: 100px;
+    text-align: center;}
+h2{color: blue;
+   font: 60px;}
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.book-columns {
+  display: flex;
+  justify-content: space-between; /* Even spacing */
+  gap: 40px; /* Space between columns */
+}
+
+.column {
+  flex: 1; /* Makes all columns equal width */
+}
+
+.column h2 {
+  margin-bottom: 15px;
+}
+
+.column p {
+  margin: 8px 0;
+}
+
+     
