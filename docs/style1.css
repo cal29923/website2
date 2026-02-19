@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+/* Main Title */
+h1 {
+  color: red;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Container that holds the 3 sections */
+.book-columns {
+  display: flex;              /* puts them in a row */
+  justify-content: space-evenly; /* evenly spaces them */
+  align-items: flex-start;    /* aligns them at the top */
+}
+
+/* Each section */
+.column {
+  width: 30%;  /* makes each section take similar space */
+}
+
+/* Section Titles */
+.column h2 {
+  color: blue;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph spacing */
+.column p {
+  margin: 8px 0;
+}
